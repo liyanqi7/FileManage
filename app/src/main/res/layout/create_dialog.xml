@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radiogroup_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/create_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="创建文件"/>
+
+
+        <RadioButton
+            android:id="@+id/create_folder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="创建文件夹"/>
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/new_filename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="文件名称"
+        android:lines="1"/>
+
+</LinearLayout>

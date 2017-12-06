@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jiding.filemanage.MainActivity">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/mPath"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+        android:background="#454444"
+        android:textColor="#ffffff"
+        android:lines="1"/>
+
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mPath"
+        android:cacheColorHint="#00000000"
+        android:layout_marginBottom="90px"/>
+
+    <GridView
+        android:id="@+id/file_gridview_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"></GridView>
+
+</RelativeLayout>
